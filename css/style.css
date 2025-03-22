@@ -1,3 +1,71 @@
-h1{
-    background-color: blue;
+body { 
+    font-family: Arial, sans-serif; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    background-color:skyblue ; 
+} 
+ 
+.container { 
+    background-color: red; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(221, 92, 92, 0.008); 
+    width: 300px; 
+} 
+ 
+h1 { 
+    text-align: center; 
+} 
+ 
+input, button { 
+    width: 100%; 
+    padding: 10px; 
+    margin: 5px 0; 
+    border-radius: 4px; 
+    border: 1px solid #a60303; 
+} 
+ 
+button { 
+    cursor: pointer; 
+    background-color:greenyellow; 
+    color: black; 
+    border: none; 
+} 
+ 
+button:hover { 
+    background-color: #069501; 
+} 
+ 
+ul { 
+    list-style-type: none; 
+    padding: 0; 
+} 
+ 
+li { 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px; 
+    border-bottom: 1px solid #ddd; 
+} 
+ 
+li.completed { 
+text-decoration: line-through; 
+color:rebeccapurple; 
+} 
+.filter { 
+display: flex; 
+justify-content: space-around; 
+margin: 10px 0; 
+} 
+.filter-btn { 
+background-color: #f1f1f1; 
+border: 1px solid #ccc; 
+padding: 5px 10px; 
+cursor: pointer; 
+} 
+.filter-btn:hover { 
+background-color: #ddd;
 }
